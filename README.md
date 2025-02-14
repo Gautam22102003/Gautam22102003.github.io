@@ -2,9 +2,6 @@
 
 Welcome to my portfolio website repository! This project showcases my professional journey, skills, and projects through a modern, interactive web interface. Built with a focus on clean code and smooth user experience.
 
-## ✨ Live Demo
-Check out the live website: #https://github.com/Gautam22102003/gautam-shriinath.github.io
-
 ## 🛠️ Built With
 - HTML5
 - CSS3 (Flexbox/Grid)
