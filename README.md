@@ -1,6 +1,9 @@
- # Personal Portfolio Website 🚀
+# Personal Portfolio Website 🚀
 
 Welcome to my portfolio website repository! This project showcases my professional journey, skills, and projects through a modern, interactive web interface. Built with a focus on clean code and smooth user experience.
+
+## ✨ Live Demo
+Check out the live website: https://Gautam22102003.github.io
 
 ## 🛠️ Built With
 - HTML5
@@ -42,18 +45,3 @@ Welcome to my portfolio website repository! This project showcases my profession
 
 ## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Contributing
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📫 Contact
-- Website: [your-website.com](#)
-- LinkedIn: [Your Name](#)
-- Twitter: [@yourhandle](#)
-
--Would you like me to add or modify any sections of this README?
--Kindly mail me using 'Contact Me' on my Portfolio Website 
