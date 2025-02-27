@@ -1,84 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gautam Shriinath - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <!-- Header with Logo and Social Links -->
     <header>
         <div class="logo-container">
             <img src="image.png" alt="Gautam Shriinath Logo" class="logo">
             <div class="social-icons">
-                <a href="mailto:gautamshriinathofficial@gmail.com" target="_blank" class="social-icon">
-                    <img src="609dc1e9642d177cfbef1e7ef1637bd8.png" alt="Email">
+                <a href="mailto:gautamshriinathofficial@gmail.com" target="_blank" class="social-icon" aria-label="Email">
+                    <img src="609dc1e9642d177cfbef1e7ef1637bd8.png" alt="Email Icon">
                 </a>
-                <a href="https://linkedin.com/in/gautam-shriinath-8299b8265/" target="_blank" class="social-icon">
-                    <img src="2f7ec67745d253fa633ef8f0490218d1.png" alt="LinkedIn">
+                <a href="https://linkedin.com/in/gautam-shriinath-8299b8265/" target="_blank" class="social-icon" aria-label="LinkedIn">
+                    <img src="2f7ec67745d253fa633ef8f0490218d1.png" alt="LinkedIn Icon">
                 </a>
-                <a href="https://github.com/Gautam22102003" target="_blank" class="social-icon">
-                    <img src="github_logo_icon_229278.png" alt="GitHub">
+                <a href="https://github.com/Gautam22102003" target="_blank" class="social-icon" aria-label="GitHub">
+                    <img src="github_logo_icon_229278.png" alt="GitHub Icon">
                 </a>
             </div>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="hero">
-        <div class="hero-content">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hi, I'm Gautam Shriinath, a passionate software engineer and web developer.</p>
-            <a href="#contact" class="btn">Get in Touch</a>
-        </div>
-        <div class="hero-image">
-            <img src="Screenshot 2025-02-07 173212.png" alt="Gautam Shriinath">
-        </div>
-    </section>
+    <!-- Main Content Section -->
+    <main>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p> As a passionate developer, I thrive on turning ideas into reality through code. My journey in software development is driven by an insatiable curiosity and a love for building meaningful solutions that make a difference.
-            Every project is an opportunity to learn something new – whether I'm crafting responsive web applications, diving deep into backend architectures, or exploring emerging technologies. I find joy in those moments when complex problems meet elegant solutions, and I'm always eager to push my boundaries to discover what's possible.
-            What excites me most about development is the endless potential for innovation and collaboration. I believe the best solutions emerge when we combine different perspectives and skills. That's why I'm always open to connecting with fellow developers, sharing knowledge, and working on challenging projects together.
-            Beyond writing code, I'm committed to continuous growth and staying current with industry trends. When I'm not working on projects, you'll find me experimenting with new technologies, contributing to open-source initiatives, or helping other developers overcome technical challenges.
-            I'm currently looking for opportunities to collaborate on projects that challenge me to grow while making a meaningful impact. Let's build something amazing together!.</p>
-    </section>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Hi, I'm Gautam Shriinath, a passionate software engineer and web developer.</p>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+            <div class="hero-image">
+                <img src="Screenshot 2025-02-07 173212.png" alt="Gautam Shriinath Portrait">
+            </div>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project">
-            <h3>Kaggle-Future-Predicting-Sales</h3>
-            <p>Sales prediction using Kaggle algorithms involves building machine learning models to forecast future sales based on historical data. By utilizing algorithms like Linear Regression, Decision Trees, or Neural Networks, the model learns from past sales patterns to predict future performance, aiding in business decisions.</p>
-        </div>
-        <div class="project">
-            <h3>Loan Approval Prediction using Machine Learning</h3>
-            <p>This project uses Machine Learning with Python to ease their work and predict whether the candidate’s profile is relevant or not using key features like Marital Status, Education, Applicant Income, Credit History, etc.</p>
-        </div>
-    </section>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                As a passionate developer, I thrive on turning ideas into reality through code. My journey in software development is driven by an insatiable curiosity and a love for building meaningful solutions that make a difference.
+                Every project is an opportunity to learn something new – whether I'm crafting responsive web applications, diving deep into backend architectures, or exploring emerging technologies. I find joy in those moments when complex problems meet elegant solutions, and I'm always eager to push my boundaries to discover what's possible.
+                What excites me most about development is the endless potential for innovation and collaboration. I believe the best solutions emerge when we combine different perspectives and skills. That's why I'm always open to connecting with fellow developers, sharing knowledge, and working on challenging projects together.
+                Beyond writing code, I'm committed to continuous growth and staying current with industry trends. When I'm not working on projects, you'll find me experimenting with new technologies, contributing to open-source initiatives, or helping other developers overcome technical challenges.
+                I'm currently looking for opportunities to collaborate on projects that challenge me to grow while making a meaningful impact. Let's build something amazing together!
+            </p>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form id="contactForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <div class="skills-section">
+                <!-- Web Development Skills -->
+                <div class="skills-category">
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>Vue.js</li>
+                        <li>RESTful APIs</li>
+                        <li>Git & GitHub</li>
+                        <li>Responsive Web Design</li>
+                        <li>Bootstrap</li>
+                        <li>SASS / LESS</li>
+                        <li>TypeScript</li>
+                        <li>Jest (for testing)</li>
+                        <li>Web Accessibility (WCAG)</li>
+                        <li>SEO Best Practices</li>
+                    </ul>
+                </div>
+
+                <!-- AI/ML Development Skills -->
+                <div class="skills-category">
+                    <h3>AI & Machine Learning</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Machine Learning (Supervised & Unsupervised)</li>
+                        <li>Deep Learning (TensorFlow, Keras)</li>
+                        <li>Scikit-learn</li>
+                        <li>Data Preprocessing (Pandas, NumPy)</li>
+                        <li>Model Evaluation & Tuning</li>
+                        <li>Natural Language Processing (NLP)</li>
+                        <li>Computer Vision (OpenCV, PyTorch)</li>
+                        <li>Reinforcement Learning</li>
+                        <li>Time Series Analysis</li>
+                        <li>Kaggle Competitions</li>
+                        <li>Data Visualization (Matplotlib, Seaborn)</li>
+                        <li>SQL & NoSQL Databases</li>
+                        <li>Cloud Platforms (AWS, GCP)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <div class="project">
+                <h3>Kaggle-Future-Predicting-Sales</h3>
+                <p>Sales prediction using Kaggle algorithms involves building machine learning models to forecast future sales based on historical data. By utilizing algorithms like Linear Regression, Decision Trees, or Neural Networks, the model learns from past sales patterns to predict future performance, aiding in business decisions.</p>
+            </div>
+
+            <div class="project">
+                <h3>Loan Approval Prediction using Machine Learning</h3>
+                <p>This project uses Machine Learning with Python to predict whether a candidate's profile is relevant based on key features like Marital Status, Education, Applicant Income, Credit History, etc.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
 
     <!-- Footer -->
     <footer>
-        <p>© 2025 Gautam Shriinath. All Rights Reserved.</p>
+        <p>&copy; 2025 Gautam Shriinath. All Rights Reserved.</p>
     </footer>
 
     <script src="scripts.js"></script>
 </body>
+
 </html>
